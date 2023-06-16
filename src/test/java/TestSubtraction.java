@@ -1,5 +1,3 @@
-package org.example;
-
 import org.junit.platform.suite.api.IncludeTags;
 import org.junit.platform.suite.api.SelectPackages;
 import org.junit.platform.suite.api.Suite;
@@ -7,6 +5,6 @@ import org.junit.platform.suite.api.Suite;
 
 @Suite
 @SelectPackages("org.example")
-@IncludeTags({"addition"})
-public class TestSuite {
+@IncludeTags({"subtraction"})
+public class TestSubtraction {
 }
